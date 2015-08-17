@@ -1,0 +1,26 @@
+{
+  "name": "mongoose-datasource",
+  "version": "1.0.0",
+  "description": "mongoose datasource customized used in phoncol project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoncol/mongoose-datasource.git"
+  },
+  "keywords": [
+    "mongoose",
+    "datasource"
+  ],
+  "author": "zhangyuan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phoncol/mongoose-datasource/issues"
+  },
+  "homepage": "https://github.com/phoncol/mongoose-datasource#readme",
+  "dependencies": {
+    "mongoose": "^4.1.3"
+  }
+}
