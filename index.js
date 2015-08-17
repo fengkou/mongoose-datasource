@@ -85,12 +85,13 @@ var mongoose = require('mongoose');
     var Instance = new (function (ds) {
       var instance = {};
       var defaultDs = null;
+      var _this = this;
       dataSources.forEach(function (_ds) {
         var conf = ds[_ds];
         if (conf.default) {
           defaultDs = _ds;
         }
-        this['get' + upFirst(_ds)] = this['use' + upFirst(_ds)] = function () {
+        _this['get' + upFirst(_ds)] = _this['use' + upFirst(_ds)] = function () {
           return this.get(_ds);
         };
       });
