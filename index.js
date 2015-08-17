@@ -1,4 +1,5 @@
-var mongoose = require('mongoose');
+
+"use strict";
 
 (function (module) {
 
@@ -7,7 +8,7 @@ var mongoose = require('mongoose');
    * @param ds
    * @returns {{getDb: Function, getDs: Function}}
    */
-  function dataSource(ds) {
+  function dataSource(ds, mongoose) {
     var dataSources = Object.keys(ds);
     if (!dataSources.length) {
       return {

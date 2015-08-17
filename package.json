@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/phoncol/mongoose-datasource/issues"
   },
-  "homepage": "https://github.com/phoncol/mongoose-datasource#readme",
-  "dependencies": {
-    "mongoose": "^4.1.3"
-  }
+  "homepage": "https://github.com/phoncol/mongoose-datasource#readme"
 }
